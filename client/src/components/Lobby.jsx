@@ -104,7 +104,7 @@ export const Lobby = () => {
               <h1 className="text-center text-white text-2xl font-bold">
                 WELCOME TO
                 <br />
-                WAWA MANSION
+                SQUAD MANSION
               </h1>
               <p className="text-center text-white">
                 Please select a room to relax
@@ -159,7 +159,7 @@ export const Lobby = () => {
           bevelThickness={0.005}
           letterSpacing={0.012}
         >
-          WAWA
+          SQUAD
           <meshStandardMaterial color="white" />
         </Text3D>
         <Skyscraper scale={1.32} />

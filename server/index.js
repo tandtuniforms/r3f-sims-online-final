@@ -2,7 +2,7 @@ import fs from "fs";
 import pathfinding from "pathfinding";
 import { Server } from "socket.io";
 
-const origin = process.env.CLIENT_URL || "http://localhost:5173";
+const origin = process.env.CLIENT_URL || "http://localhost:5174";
 const io = new Server({
   cors: {
     origin,
